@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#4286f4">
+    <title>Website Portifolio</title>
+    <link rel="shortcut icon" type="image/png" href="img/pencil.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="row">
+            <div class="logo col-md-6"><img class="logo-udacity" src="img/udacity.jpg" alt="Logo Udacity"></div>
+            <div class="name col-md-6">
+                <h1 class="text-thin" id="name">Izabella Timmons</h1>
+                <h3 class="text-thin" id="text-web">Front-End Developer</h3>
+            </div>
+        </header>
+
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+                <img class="img-responsive img-1" src="img/mainpic.jpg" srcset="img/mainpic.jpg 1x, img/mainpic.jpg 2x, img/mainpic.jpg 3x" alt="Code Picture" data-toggle="modal" data-target="#project1">
+            </div>
+        </div>
+
+        <section class="line-1">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-muted">Featured work</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <a href="#"><img class="img-2" src="img/resume.jpg"
+              srcset="img/resume.jpg 1x, img/resume.jpg 2x, img/resume.jpg 3x" alt="Resume" ></a>
+                    <h3 class="text">Interactive Resume</h3>
+                </div>
+                <div class="col-md-4">
+                    <a href="#"><img class="img-2" src="img/game.jpg"
+              srcset="img/game.jpg 1x, img/game.jpg 2x, img/game.jpg 3x" alt="Game"></a>
+                    <h3 class="text">Arcade Game Clone</h3>
+                </div>
+                <div class="col-md-4">
+                    <a href="#"><img class="img-2" src="img/website.jpg"
+              srcset="img/website.jpg 1x, img/website.jpg 2x, img/website.jpg 3x" alt="Website"></a>
+                    <h3 class="text">Website Optimization</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="line-2">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <a href="#"><img class="img-2" src="img/map.jpg"
+              srcset="img/map.jpg 1x, img/map.jpg 2x, img/map.jpg 3x" alt="Map"></a>
+                    <h3 class="text">Neighborhood Map</h3>
+                </div>
+                <div class="col-md-4">
+                    <a href="#"><img class="img-2" src="img/feedread.jpg"
+              srcset="img/feedread.jpg 1x, img/feedread.jpg 2x, img/feedread.jpg 3x" alt="Feed"></a>
+                    <h3 class="text">Feed Reader Testing</h3>
+                </div>
+                <div class="col-md-4">
+                    <a href="#"><img class="img-2" src="img/finalproject.jpg"
+              srcset="img/finalproject.jpg 1x, img/finalproject.jpg 2x, img/finalproject.jpg 3x" alt="Final Project"></a>
+                    <h3 class="text">Final Project</h3>
+                </div>
+            </div>
+        </section>
+
+        <footer class="row">
+            <div class="col-md-12 social-media">
+                <a class="link-fa" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a class="link-gi" href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a class="link-go" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="my-modal-label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="my-modal-label">About</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-2" src="img/mainpic.jpg" alt="Code Image">
+                    <p id="information">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
